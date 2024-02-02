@@ -5,3 +5,5 @@ Swingline is a fast, pure-GPU implementation of [Weighted Voronoi Stippling](htt
 The implementation is in `swingline.c`
 
 For more details, see the [project page](https://mattkeeter.com/projects/swingline).
+
+This fork has been modified to make compilng on Ubuntu easier.
