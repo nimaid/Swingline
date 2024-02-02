@@ -1,4 +1,4 @@
 swingline: swingline.c
-	gcc -Wall -Wextra -lglfw -lepoxy -framework OpenGL -g -o $@ $<
+	gcc -std=gnu99 -Wall -Wextra -g -o $@ $< -lglfw -lepoxy -lGL -lm 
 clean:
 	rm -f swingline
